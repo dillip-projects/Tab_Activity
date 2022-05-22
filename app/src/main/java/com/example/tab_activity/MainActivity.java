@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager.setAdapter(myAdapter);
 
-        //used to link the viewpagers to the tab layouts.
+        //used to link the viewpagers to the tab layouts. let's see the change
        tabLayout.setupWithViewPager(viewPager);
     }
 }
